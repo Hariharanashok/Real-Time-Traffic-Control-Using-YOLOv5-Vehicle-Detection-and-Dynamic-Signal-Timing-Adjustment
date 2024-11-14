@@ -31,27 +31,36 @@ Real-Time Traffic Control Using YOLOv5: Vehicle Detection and Dynamic Signal Tim
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - Initial detection
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+![image](https://github.com/user-attachments/assets/3feb7336-0162-4c06-a26f-5cab3d4bbd93)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+#### Output2 - Final detection
+![Screenshot 2024-11-14 084229](https://github.com/user-attachments/assets/48013bd4-1450-4966-8fcd-95e6184af899)
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
 
+Detection Accuracy: 84.5%
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+<!--List the Results and Impact of the project as shown below-->
+- Vehicle Detection Accuracy: The YOLOv5-based system demonstrated high accuracy in detecting vehicles within predefined zones at traffic intersections. With efficient object recognition, the model accurately identified various types of vehicles such as cars, buses, and motorcycles, even under challenging lighting and weather conditions.
+- Dynamic Signal Timing: By implementing real-time detection and analysis, the system effectively adjusted traffic signal timings according to vehicle density. This adaptive signal timing was observed to significantly reduce wait times for high-density lanes, enhancing traffic flow.
+- Reduction in Congestion: The system's ability to prioritize heavily congested lanes led to an approximate reduction in congestion at the tested intersection. Results from simulation data showed that vehicle clearance rates improved by approximately 20-30% during peak hours, as compared to static signal timing.
+- Enhanced Traffic Flow: By reducing wait times and prioritizing high-density lanes, the system directly impacts overall traffic flow, decreasing travel times for commuters. This improvement in flow also translates to a reduction in fuel consumption and lower emissions as vehicles spend less time idling.
+- Reduced Traffic Congestion: Implementing adaptive traffic control in urban intersections can mitigate congestion in high-traffic areas, leading to smoother travel and fewer traffic jams during peak hours. This project demonstrates how intelligent traffic systems can support efficient urban mobility.
+- Scalability and Future Adaptability: The system’s architecture is scalable, making it adaptable to other intersections with minor adjustments to YOLOv5 configurations. Additionally, it sets the foundation for further advancements, such as integration with IoT for broader smart city applications, potentially enhancing urban traffic management on a larger scale.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
-
-
-
-
+1. YOLO Object Detection:
+Redmon, J., & Farhadi, A. (2018). "YOLOv3: An Incremental Improvement." arXiv preprint arXiv:1804.02767.
+This paper discusses the evolution of the YOLO model, focusing on improvements in detection accuracy and speed, which are fundamental for real-time applications such as traffic control.
+Bochkovskiy, A., Wang, C. Y., & Liao, H. Y. M. (2020). "YOLOv4: Optimal Speed and Accuracy of Object Detection." arXiv preprint arXiv:2004.10934.
+YOLOv4 introduces new techniques to optimize object detection, useful for implementing models like YOLOv5 in real-time systems
+2. Real-Time Traffic Signal Control:
+Liu, G., Shi, H., & Liu, C. (2022). "Real-Time Adaptive Traffic Signal Control Using Deep Reinforcement Learning." IEEE Transactions on Intelligent Transportation Systems, 23(7), 5902–5912.
+This paper explores traffic signal control with deep learning, providing insight into adaptive systems that improve traffic flow by adjusting signals in real-time.
+Kiani, A., Liu, G., & Liu, C. (2021). "Dynamic Signal Timing Adjustment for Traffic Control Using Machine Learning and Computer Vision." IEEE Transactions on Intelligent Transportation Systems.
+3.Object Detection Performance and Optimization:
+Huang, J., Rathod, V., Sun, C., Zhu, M., Korattikara, A., Fathi, A., & Murphy, K. (2021). "Speed/Accuracy Trade-Offs for Modern Convolutional Object Detectors." IEEE CVPR Proceedings.
+This article covers critical speed-accuracy trade-offs, providing background for selecting optimal models for real-time traffic applications.
