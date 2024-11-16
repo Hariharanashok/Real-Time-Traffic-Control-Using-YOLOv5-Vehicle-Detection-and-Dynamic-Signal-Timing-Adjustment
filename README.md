@@ -24,8 +24,7 @@ Real-Time Traffic Control Using YOLOv5: Vehicle Detection and Dynamic Signal Tim
 * nvidia-smi and nvcc - System utilities used to confirm GPU support for CUDA, necessary for accelerating deep learning operations with YOLOv5
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
-
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+![images](https://github.com/user-attachments/assets/aab48b00-0ea7-46f4-a2a5-d0855211a54b)
 
 
 ## Output
